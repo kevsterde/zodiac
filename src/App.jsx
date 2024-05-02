@@ -4,7 +4,6 @@ import zodiacData from "./assets/data/dataZodiac.json";
 
 function App() {
   const [show, setShow] = useState(false);
-  const [showTable, setShowTable] = useState(false);
 
   const [input, setInput] = useState("");
   const [person, setPerson] = useState([]);
@@ -111,7 +110,11 @@ function App() {
   };
   return (
     <div className="container">
-      <a href="" className="code">
+      <a
+        href="https://github.com/kevsterde/zodiac"
+        className="code"
+        target="_blank"
+      >
         Show Code
       </a>
       <h1>Zodiac Sign</h1>
